@@ -1,0 +1,116 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c1\c1;\cssrgb\c0\c1\c1;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 It seems like files with less bytes actually require more compression in terms\
+of percentage, probably because there are less unique values to store frequencies of, as opposed to larger files, where frequencies might be more\
+scattered and therefore might require less traversal of the tree/map. When \
+you try to compress a huffman code file, the file itself is compressed again.\
+The huffman representation can be compressed however many times, as long as it\'92s decompressed as many times to get the original file.\
+\
+calgary results: \
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/paper6.hf\
+paper6 from	 38105 to	 25056 in	 0.082\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/paper1.hf\
+paper1 from	 53161 to	 34370 in	 0.083\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/obj1.hf\
+obj1 from	 21504 to	 17084 in	 0.044\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/geo.hf\
+geo from	 102400 to	 73591 in	 0.126\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/progc.hf\
+progc from	 39611 to	 26947 in	 0.048\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/progl.hf\
+progl from	 71646 to	 44016 in	 0.076\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/book1.hf\
+book1 from	 768771 to	 439408 in	 0.705\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/progp.hf\
+progp from	 49379 to	 31247 in	 0.055\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/pic.hf\
+pic from	 513216 to	 107585 in	 0.180\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/news.hf\
+news from	 377109 to	 247427 in	 0.398\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/paper4.hf\
+paper4 from	 13286 to	 8893 in	 0.018\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/bib.hf\
+bib from	 111261 to	 73794 in	 0.119\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/paper3.hf\
+paper3 from	 46526 to	 28308 in	 0.048\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/paper2.hf\
+paper2 from	 82199 to	 48648 in	 0.084\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/paper5.hf\
+paper5 from	 11954 to	 8464 in	 0.018\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/obj2.hf\
+obj2 from	 246814 to	 195130 in	 0.310\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/trans.hf\
+trans from	 93695 to	 66251 in	 0.108\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/calgary/book2.hf\
+book2 from	 610856 to	 369334 in	 0.642\
+--------\
+total bytes read: 3251493\
+total compressed bytes 1845553\
+total percent compression 43.240\
+compression time: 3.144\
+\
+waterloo results: \
+\pard\pardeftab720\partightenfactor0
+\cf3 compressing to: /Users/pranavsridhar/Downloads/cs 314/waterloo/sail.tif.hf\
+sail.tif from	 1179784 to	 1085500 in	 1.837\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/waterloo/monarch.tif.hf\
+monarch.tif from	 1179784 to	 1109973 in	 1.821\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/waterloo/clegg.tif.hf\
+clegg.tif from	 2149096 to	 2034594 in	 3.284\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/waterloo/lena.tif.hf\
+lena.tif from	 786568 to	 766145 in	 1.220\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/waterloo/serrano.tif.hf\
+serrano.tif from	 1498414 to	 1127644 in	 1.851\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/waterloo/peppers.tif.hf\
+peppers.tif from	 786568 to	 756967 in	 1.181\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/waterloo/tulips.tif.hf\
+tulips.tif from	 1179784 to	 1135860 in	 1.794\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/waterloo/frymire.tif.hf\
+frymire.tif from	 3706306 to	 2188592 in	 3.575\
+--------\
+total bytes read: 12466304\
+total compressed bytes 10205275\
+total percent compression 18.137\
+compression time: 16.563\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+BooksAndHTML results:\
+\pard\pardeftab720\partightenfactor0
+\cf3 compressing to: /Users/pranavsridhar/Downloads/cs 314/BooksAndHTML/melville.txt.hf\
+melville.txt from	 82140 to	 47364 in	 0.143\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/BooksAndHTML/A7_Recursion.html.hf\
+A7_Recursion.html from	 41163 to	 26188 in	 0.055\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/BooksAndHTML/jnglb10.txt.hf\
+jnglb10.txt from	 292059 to	 168617 in	 0.293\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/BooksAndHTML/ThroughTheLookingGlass.txt.hf\
+ThroughTheLookingGlass.txt from	 188199 to	 110293 in	 0.181\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/BooksAndHTML/syllabus.htm.hf\
+syllabus.htm from	 33273 to	 21341 in	 0.040\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/BooksAndHTML/revDictionary.txt.hf\
+revDictionary.txt from	 1130523 to	 611617 in	 0.998\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/BooksAndHTML/CiaFactBook2000.txt.hf\
+CiaFactBook2000.txt from	 3497369 to	 2260663 in	 3.705\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/BooksAndHTML/kjv10.txt.hf\
+kjv10.txt from	 4345020 to	 2489767 in	 4.793\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/BooksAndHTML/rawMovieGross.txt.hf\
+rawMovieGross.txt from	 117272 to	 53832 in	 0.090\
+compressing to: /Users/pranavsridhar/Downloads/cs 314/BooksAndHTML/quotes.htm.hf\
+quotes.htm from	 61563 to	 38422 in	 0.066\
+--------\
+total bytes read: 9788581\
+total compressed bytes 5828104\
+total percent compression 40.460\
+compression time: 10.364\
+\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \
+\
+\
+}
